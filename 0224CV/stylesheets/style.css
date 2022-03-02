@@ -1,0 +1,118 @@
+
+.primary{
+    color:rgb(42, 161, 165);
+}
+.secondary{
+    color: burlywood;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.intro-block .row{
+    align-items:center;
+}
+
+.魔艾{
+    width:20%;
+}
+
+.魔艾 img{
+    width:90%;
+    border-radius:50%
+}
+
+.content{
+    width:80%
+}
+
+.contact-me ul{
+    list-style: none;
+    padding:0;
+}
+
+.contact-me>ul li{
+    display: inline;
+    padding: 0 5px;
+}
+
+.education-item{
+    display:flex;
+    align-items: center;
+    width: 33.3333%;
+}
+.education-item .logo{
+    width:20%;
+}
+.education-item .logo img{
+    width: 100%;
+}
+.education-item ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.education-item ul :nth-child(1){
+    color: burlywood;
+}
+.education-item ul :nth-child(2){
+    font-weight: 650;
+    font-size: 20px;
+}
+.education-item ul :nth-child(3){
+    color:rgb(42, 161, 165);
+}
+.others-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.others-block h3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid cornflowerblue;
+}
+.skill{
+    padding-right: 5px;
+}
+.language{
+    padding-left: 5px;
+}
+.others-block>div{
+    width: 50%;
+}
+.others-block>*{
+    box-sizing: border-box;
+}
+.education-block h3 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid cornflowerblue;
+}
+.experience-block h3 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid cornflowerblue;
+}
+
+@media  and (max-wdith:992px) {
+
+    .魔艾,
+    .魔艾>img {
+        width:100%;
+    }
+
+    .intro-block.content {
+        width: 100%;
+    }
+
+    .intro-block>.row {
+        flex-direction: column;
+    }
+
+    .魔艾 {
+        max-width: 150px;
+    }
+    
+}
